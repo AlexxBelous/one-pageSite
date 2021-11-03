@@ -23,8 +23,11 @@
             line-height: 1.5;
             border-radius: 0.25;
             // remove up & down arrows
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                appearance: none;
+            }
         }
     }
 }
-
-// Прошел час видео
